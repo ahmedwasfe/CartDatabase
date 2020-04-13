@@ -17,4 +17,13 @@
 
 	RoomDatabase mRoomDatabase = RoomDatabase.getInstance(this);
         CartRepository mCartRepository = CartRepository.getInstance(CartDataSource.getInstance(Common.mRoomDatabase.cartDAO()));
+	
+	Cart cartItem = new Cart();
+        cartItem.setName(mListDrink.get(position).getName());
+        cartItem.setImage(mListDrink.get(position).getLink());
+        cartItem.setAmount(Integer.parseInt(quntityCount));
+        cartItem.setPrice(finalPrice);
+       
+        mCartRepository.addItemToCart(cartItem);
+        Log.d("CARTI_TEMS", new Gson().toJson(cartItem));
         
