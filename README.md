@@ -1,7 +1,7 @@
 # CartDatabase
 Cart Loca Database
 
-  allprojects {
+  	allprojects {
       repositories {
         ...
         maven { url 'https://jitpack.io' }
