@@ -1,5 +1,5 @@
 # CartDatabase
-# Add the following configuration in your build.gradle file.
+Add the following configuration in your build.gradle file.
   	allprojects {
       repositories {
         ...
