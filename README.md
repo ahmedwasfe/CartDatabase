@@ -1,7 +1,7 @@
 # CartDatabase
  Add the following configuration in your build.gradle file.
  
-		allprojects {
+	allprojects {
 	      repositories {
 		...
 		maven { url 'https://jitpack.io' }
