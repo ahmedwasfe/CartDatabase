@@ -1,0 +1,3 @@
+rootProject.name='CartDatabase'
+include ':app'
+include ':cartdatabase'
